@@ -1,0 +1,96 @@
+header {
+  border: 2px solid red;
+  height: 70px;
+  width: 50%;
+  margin-top: -6px;
+  margin-left: 25%;
+  text-align: center;
+}
+header li {
+  list-style: none;
+  display: inline;
+  margin: 50px;
+}
+header li a {
+  font-size: 24px;
+  text-decoration: none;
+}
+
+footer {
+  border: 2px solid black;
+  height: 70px;
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 6%;
+}
+
+.about-me {
+  border: 5px solid green;
+  width: 25%;
+  margin: 50px;
+  margin-left: 37.5%;
+}
+.about-me .about {
+  border: 1px solid orange;
+  margin: 20px;
+}
+.about-me .about .about-img {
+  margin-left: 80%;
+  margin-top: -15%;
+}
+.about-me .about img {
+  width: 70px;
+  height: auto;
+}
+.about-me .about h1 {
+  text-align: center;
+}
+.about-me .tema {
+  border: 1px solid blue;
+  margin: 20px;
+  width: 50%;
+}
+.about-me .tema h2 {
+  margin: 5px;
+}
+.about-me .bio {
+  border: 1px solid pink;
+  margin: 20px;
+  padding: 10px;
+  text-align: justify;
+}
+
+.contacs {
+  border: 1px solid black;
+  margin: 20px;
+  margin-left: 35%;
+  width: 30%;
+}
+.contacs ul {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 0;
+}
+.contacs ul li {
+  list-style: none;
+  margin: 10px;
+  border: 1px solid black;
+  font-size: 16px;
+  padding: 5px;
+}
+.contacs .cContacts {
+  margin: 10px;
+  border: 1px solid black;
+}
+.contacs .number {
+  border: 1px solid black;
+}
+.contacs .number a {
+  text-decoration: none;
+}
+.contacs .insta {
+  border: 1px solid black;
+}
+.contacs .adress {
+  border: 1px solid black;
+}

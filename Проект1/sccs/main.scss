@@ -1,0 +1,139 @@
+$fhH: 70px;
+$fhW: 50%;
+$fhP: 25%;
+$marginAbout: 20px;
+$border: 1px solid black;
+
+body {
+	
+}
+
+header {
+	border: 2px solid red;
+	height: $fhH;
+	width: $fhW;
+	margin-top: -6px;
+	margin-left: $fhP;
+	text-align: center;
+
+	li{
+		
+		list-style: none;
+		display: inline;
+		margin: 50px;
+
+
+		a{
+			font-size: 24px;
+			text-decoration: none;
+		}		
+	}
+}
+
+footer {
+	border: 2px solid black;
+	height: $fhH;
+	width: $fhW;
+	margin-left: $fhP;
+	margin-bottom: 6%;
+
+}
+
+.about-me {
+
+	border: 5px solid green;
+	width: $fhW - 25%;
+	margin: 50px;
+	margin-left: $fhP + 12.5%;
+
+
+	.about {
+		border: 1px solid orange;
+		margin: $marginAbout;
+
+		.about-img{
+			//background-image: ("/img/about.png");
+			
+			margin-left: 80%;
+			margin-top: -15%;
+		}
+
+		img{
+
+			width: 70px;
+			height: auto;
+
+		}
+		
+		h1 {
+		text-align: center;
+		}
+	}
+
+	.tema {
+
+		border: 1px solid blue;
+		margin: $marginAbout;
+		width: 50%;
+
+		h2 {
+
+			margin: 5px;
+		}
+	}
+
+	.bio {
+
+		border: 1px solid pink;
+		margin: $marginAbout;
+		padding: 10px;
+		text-align: justify;
+	}
+}
+
+.contacs {
+	border: $border;
+	margin: 20px;
+	margin-left: $fhP + 10%;
+	width: $fhW - 20%;
+	
+	ul{
+		border: $border;
+		margin: 10px;
+		padding: 0;
+
+			li {
+				list-style: none;
+				margin: 10px;
+				border: $border;
+				font-size: 16px;
+				padding: 5px;
+			}
+	}
+	
+
+	.cContacts {
+
+		margin: 10px;
+		border: $border;
+	}
+	
+	.number {
+		border: $border;
+
+				a {text-decoration: none;}
+	}
+
+	
+
+	.insta {
+		border: $border;
+	}
+
+	.adress {
+
+		border: $border;
+	}
+
+
+}
